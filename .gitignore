@@ -5,6 +5,7 @@ bin
 # netbeans
 nbactions.xml
 nb-configuration.xml
+*private*.xml
 
 # eclipse
 .classpath

@@ -22,7 +22,7 @@ Rake::RDocTask.new do |rdoc|
   files = ['README', 'LICENCE', 'lib/**/*.rb']
   rdoc.rdoc_files.add(files)
   rdoc.main = "README" # page to start on
-  rdoc.title = "NAME Docs"
+  rdoc.title = "RubyWebService Docs"
   rdoc.rdoc_dir = 'doc/rdoc' # rdoc output folder
   rdoc.options << '--line-numbers'
 end

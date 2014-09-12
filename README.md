@@ -1,4 +1,4 @@
-RubySkeleton
-============
+RubyWebService
+==============
 
-A skeletal Ruby project ready to add classes to and play with.
+Web application example.

@@ -11,15 +11,15 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH:include?(lib)
 
 spec = Gem::Specification.new do |s|
-  s.name = "NAME"
+  s.name = "RubyWebService"
   s.version = '0.1'
   s.has_rdoc = true
   s.extra_rdoc_files = ['README', 'LICENSE']
-  s.summary = 'Skeleton project template'
+  s.summary = 'Ruby Web Application Example'
   s.description = s.summary
   s.authors = ["Steven J Williams"]
   s.email = ["steven.williams@bjss.com"]
-  s.executables = ['bin/NAME']
+  s.executables = ['bin/RubyWebService']
   s.files = %w(LICENCE README Rakefile) + Dir.glob("{bin,lib,spec}/**/*")
   s.require_path = "lib"
   s.bindir = "bin"
