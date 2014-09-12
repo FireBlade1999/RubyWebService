@@ -19,9 +19,9 @@ require 'rake/testtask'
 require 'rspec/core/rake_task'
 
 Rake::RDocTask.new do |rdoc|
-  files = ['README', 'LICENCE', 'lib/**/*.rb']
+  files = ['README*', 'LICENCE', 'lib/*']
   rdoc.rdoc_files.add(files)
-  rdoc.main = "README" # page to start on
+  rdoc.main = "README.md" # page to start on
   rdoc.title = "RubyWebService Docs"
   rdoc.rdoc_dir = 'doc/rdoc' # rdoc output folder
   rdoc.options << '--line-numbers'
