@@ -9,7 +9,7 @@
 #
 ############################################################
 
-require './bin/RubyWebService.rb'
+require './lib/RubyWebService.rb'
 require 'test/unit'
 require 'rack/test'
 
