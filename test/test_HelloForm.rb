@@ -1,15 +1,5 @@
 
-
-############################################################
-#
-# To test a web app you can use 'Rack::Test' gem.
-#
-# This test pretends to be a web browser, visiting 
-# the web application using code.
-#
-############################################################
-
-require './lib/RubyWebService.rb'
+require './lib/RubyWebService/RubyWebService.rb'
 require 'test/unit'
 require 'rack/test'
 
