@@ -1,0 +1,10 @@
+clean=Remove any temporary products.
+clobber=Remove any generated file.
+clobber_rdoc=Remove RDoc HTML files
+doc=
+doc/rdoc=
+doc/rdoc/index.html=
+rdoc=Build RDoc HTML files
+rerdoc=Rebuild RDoc HTML files
+spec=Run RSpec code examples
+test=Run tests
